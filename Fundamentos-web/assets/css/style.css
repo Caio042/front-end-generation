@@ -1,0 +1,45 @@
+/*Estilos de index.html*/
+body{
+    background-color:slategray;
+}
+
+.container{
+    display: flex; /*tipo de 'caixa' flex*/
+    flex-flow: row; /*conteúdo exibido em linha*/
+    justify-content: center;
+    align-items: flex-start; /*alinha verticalmente*/
+}
+
+#menu li{
+    display: inline;
+    padding: 15px;
+    
+}
+#menu li a {
+    text-decoration: none;
+}
+#menu li a:visited{
+    color: blue;
+}
+#menu li a:hover { /*o que acontece quando o mouse está em cima*/
+    color: green;
+}
+.p-30{
+    padding: 30px;
+}
+.br-50{
+    border-radius: 50%;
+}
+
+.center{
+    text-align: center;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+/*Estilos de contato.html*/
+
+.ml-50{
+    margin-left: 50px;
+}
